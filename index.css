@@ -11,7 +11,7 @@ body{
 }
 
 #console {
-    font-family: courier, monospace;
+  font-family: courier, monospace;
 	color: #fff;
 	width:750px;
 	margin-left:auto;
@@ -21,7 +21,7 @@ body{
 }
 
 #console-color {
-    color:green
+    color:#00ff00;
 }
 #console-color-red {
     color:red;
@@ -29,6 +29,7 @@ body{
 
 .blink_me {
     animation: blinker 1s linear infinite;
+    
   }
   
   @keyframes blinker {
